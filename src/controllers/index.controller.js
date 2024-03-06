@@ -9,10 +9,10 @@ const pool = new Pool({
     database: 'munihuac_sayan',//process.env.DB,
     port: 5432, */
 
-    host: '51.161.12.44',//process.env.DB_HOST,
-    user: 'demohw_rleon',//process.env.DB_USER,
-    password: '=zj79uHwcPl8',//process.env.DB_PASS,
-    database: 'demohw_sayan',//process.env.DB,
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASS,
+    database: process.env.DB,
     port: 5432
 })
 
